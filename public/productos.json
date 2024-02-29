@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta Barcelona",
+        "precio": "$50.000",
+        "stock": "5",
+        "description":"La camiseta mas buscada de España",
+        "categoria": "España",
+        "img":"../assets/img/Camiseta Barcelona.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Camiseta Milan",
+        "precio": "$50.000",
+        "stock": "10",
+        "description":"La camiseta mas buscada de Italia",
+        "categoria": "Italias",
+        "img":"../assets/img/Camiseta MILAN.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Camiseta Porto ",
+        "precio": "$50.000",
+        "stock": "15",
+        "description":"La camiseta mas buscada de Portugal",
+        "categoria": "Portugal",
+        "img":"../assets/img/Cmiseta Porto.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Camiseta Ajax",
+        "precio": "$50.000",
+        "stock": "12",
+        "description":"La camiseta mas buscada de Holanda",
+        "img":"../assets/img/Camiseta Ajax.jfif"
+    }
+]
