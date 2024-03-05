@@ -10,7 +10,7 @@ const CartProvider = ({children}) =>{
 
         const productoExistente = cart.findIndex(prod => prod.producto.id == producto.id)
 
-        if (!productoExistente == -1){
+        if (productoExistente == -1){
         setCart([...cart,{producto,cantidad}])
         }else {
             const newCart = [...cart]
@@ -35,7 +35,7 @@ const CartProvider = ({children}) =>{
     }
 
     const totalCarrito = () =>{
-        const totalPrice = cart.reduce((total,item)=> total + (item.precio + item.cantidad),0)
+        const totalPrice = cart.reduce((total,item)=> total + (item.producto.precio * item.cantidad),0)
         return totalPrice
     }
 

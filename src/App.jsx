@@ -6,9 +6,11 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Error from './components/Error/Error';
 import Cart from './components/Cart/Cart';
-import ThemeProvider from './components/ThemeContext/ThemeContext';
-import CartProvider from './components/Cart/CartContext/CartContext';
+import CartProvider from './components/CartContext/CartContext';
+import { useState,useEffect } from 'react';
 
+
+import { getFirestore,collection,getDocs,query,where } from 'firebase/firestore';
 
 
 const App=()=> {
